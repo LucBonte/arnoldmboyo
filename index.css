@@ -1,0 +1,316 @@
+body
+{
+	margin: 0px;
+	
+}
+header
+{
+	height: 47px;
+	width: 100%;
+	line-height: 0px;
+	position: fixed;
+	background-color: rgb(250,250,250);
+}
+header
+{
+	height: 45px;
+	width: 100%;
+	line-height: 0px;
+	position: fixed;
+	background-color: rgb(250,250,250);
+}
+a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+a:hover
+{
+	color: rgba(59,33,154,0.7);
+}
+.pa
+{
+	font-size: 25px;
+	color: rgb(191,19,194);
+	margin-left: 25px;
+}
+.imga
+{
+	
+	height: 900px;
+	width: 742px;
+}
+.diva
+{
+	margin-top: 5px;
+	height: 602px;
+	width: 742px;
+	float: left;
+	
+}
+.seca
+{
+	margin-top: 5px;
+	margin-left: 743px;
+	height: 878px;
+	background-color: rgba(66,183,226,0.1);
+}
+.divb p
+{
+	font-family: Arial;
+	font-size: 23px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 50px;
+}
+.divc
+{
+	margin-top: 120px;
+	padding-left: 80px;
+	line-height: 0px;
+	font-family: Arial;
+	background-color: rgba(36,36,36,0.9);
+	color: rgb(216,216,216);
+	height: 180px;
+	font-size: 20px;
+}
+.divc img
+{
+	width: 25px;
+	height: 25px;
+}
+.divc .pconta
+{
+	margin-top: -13px;
+	padding-left: 30px;
+	font-size: 20px;
+}
+.contacts
+{
+	padding-left: 75px;
+	font-size: 25px;
+	font-family: Arial;
+	padding-top: 13px;
+}
+.pcontb
+{
+	padding-left: 66px;
+}
+.pcontc
+{
+	font-size: 14px;
+	padding-top: 5px;
+	text-align: center;
+	font-family: Arial;
+}
+h1
+{
+	text-align: center;
+	font-size: 35px;
+	-webkit-animation: color-change 1s infinite;
+	-moz-animation:color-change 1s infinite;
+	-o-animation: color-change 1s infinite;
+	-ms-animation: color-change 1s infinite;
+	animation: color-change 1s infinite;
+}
+.buta
+{
+	float: left;
+	margin-left: 40px;
+	margin-right: 35px;
+}
+button
+{
+	background-color: rgba(66,183,226,0.1) ;
+	border-color: white;
+	margin-top: 30px;
+}
+@-webkit-keyframes color-change
+{
+	0%{ color: rgb(200,40,203); }
+	50%{color: rgb(109,22,110);}
+	100%{color:rgb(40,178,203);}
+}
+@-moz-keyframes color-change 
+{
+	0%{ color: rgb(200,40,203); }
+	50%{color: rgb(109,22,110);}
+	100%{color:rgb(40,178,203);}
+}
+@-ms-keyframes color-change
+{
+	0%{ color: rgb(200,40,203); }
+	50%{color: rgb(109,22,110));}
+	100%{color:rgb(40,178,203);}
+}
+@keyframes color:-change
+{
+	0%{ color: rgb(200,40,203); }
+	50%{color: rgb(109,22,110);}
+	100%{color:rgb(40,178,203);}
+}
+@media (max-width: 320px)
+{
+	.imga
+	{
+		height: 240px;
+		width: 200px;
+	}
+	.diva
+	{
+		margin-top: 28px;
+		height: 240px;
+		width: 200px;
+		float: left;
+	}
+	h1
+	{
+		font-size: 30px;
+	}
+	.divb p
+	{
+		font-size: 16px;
+		text-align: left;
+	}
+	.buta
+	{
+		margin-left: 15px;
+		margin-right: 25px;
+	}
+	a
+	{
+		font-size: 18px;
+	}
+	.seca
+	{
+		margin-top: 0px;
+		margin-left: 0px;
+		height: 900px;
+		border: 1px solid orange;
+	}
+	.contacts
+	{
+		padding-left: 0px;
+		font-size: 22px;
+		font-family: Arial;
+		padding-top: 13px;
+	}
+	.divc
+	{
+		margin-top: 60px;
+		padding-left: 10px;
+		height: 150px;
+	}
+	.divc img
+	{
+		width: 20px;
+		height: 20px;
+	}
+}
+@media (min-width: 321px) and (max-width: 658px)
+{
+	.contacts
+	{
+		padding-left: 75px;
+		font-size: 22px;
+		font-family: Arial;
+		padding-top: 13px;
+	}
+	.divc
+	{
+		margin-top: 60px;
+		padding-left: 50px;
+		height: 150px;
+	}
+	.divc img
+	{
+		width: 23px;
+		height: 23px;
+	}
+	.buta
+	{
+		margin-left: 15px;
+		margin-right: 25px;
+	}
+	.imga
+	{
+		height: 340px;
+		width: 320px;
+	}
+	.diva
+	{
+		width: 320px;
+	}
+	.seca
+	{
+		margin-top: -263px;
+		margin-left: 0px;
+		height: 620px;
+		padding-top: 10px;
+	}
+	.diva
+	{
+		float: none;
+	}
+}
+@media (min-width: 659px) and (max-width: 879px)
+{
+	.diva
+	{
+		margin-top: 28px;
+		height: 370px;
+		width: 650px;
+		float: none;
+	}
+	.seca
+	{
+		margin-top: 0px;
+		margin-left: 0px;
+		height: 602px;
+		background-color: rgba(66,183,226,0.1) ;
+	}
+	.imga
+	{
+		height: 402px;
+		width: 542px;
+	}
+}
+@media (min-width: 880px) and (max-width: 1146px)
+{
+	.imga
+	{
+		height: 620px;
+		width: 542px;
+	}
+	.diva
+	{
+		margin-top: 28px;
+		height: 602px;
+		width: 542px;
+		float: left;
+	}
+	.seca
+	{
+		margin-top: 28px;
+		margin-left: 543px;
+		height: 620px;
+	}
+	.seca .divb p
+	{
+		font-family: Arial;
+		font-size: 18px;
+		text-align: justify;
+		padding-left: -10px;
+	}
+	.divc
+	{
+		margin-top: 40px;
+	}
+	.pcontc
+	{
+		margin-top: 2px;
+	}
+
+}
